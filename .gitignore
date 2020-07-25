@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+# dist
+/dist
+
+# server public
+src/server/public
+
+#.netlify

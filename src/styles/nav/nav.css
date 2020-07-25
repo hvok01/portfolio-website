@@ -1,0 +1,90 @@
+.header-nav-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  background-color: transparent;
+  width: 100%;
+  height: 10vh;
+  z-index: 100;
+  position: relative;
+  top: 0;
+}
+
+.logo-container {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  width: 20px;
+  height: 20px;
+  margin-top: 5vh;
+  cursor: pointer;
+}
+
+.logo-container-hidden {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  width: 20px;
+  height: 20px;
+  margin-top: 5vh;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger-container {
+  grid-column: 10 / 12;
+  grid-row: 1 / 2;
+  justify-self: end;
+  width: 20px;
+  height: 20px;
+  margin-top: 5vh;
+  display: block;
+  cursor: pointer;
+}
+
+.close-container {
+  grid-column: 10 / 12;
+  grid-row: 1 / 2;
+  justify-self: end;
+  width: 20px;
+  height: 20px;
+  margin-top: 5vh;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-links-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  grid-column: 1 / 13;
+  grid-row: 2 / 7;
+  justify-content: center;
+  text-align: center;
+  display: none;
+}
+
+.nav-links-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-links-container ul li {
+  padding: 15px 0;
+  border-bottom: 1px solid #fbfbff;
+}
+
+.nav-links-container ul li .nav-links-item {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #fbfbff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-links-container ul li .nav-links-item:hover {
+  text-decoration: line-through;
+}

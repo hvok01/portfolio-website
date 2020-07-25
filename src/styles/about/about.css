@@ -1,0 +1,122 @@
+.about-section-container {
+  grid-column: 1 / 13;
+  grid-row: 1 / 7;
+  background-color: #fbfbff;
+  animation: background-image 10s linear infinite;
+  width: 100%;
+  height: 100vh;
+}
+
+.about-section {
+  grid-column: 2 / 12;
+  grid-row: 2 / 4;
+}
+
+.about-section-text {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #0c0c0c;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.grid-line-1-a,
+.grid-line-2-a,
+.grid-line-3-a,
+.grid-line-4-a,
+.grid-line-5-a {
+  width: 1px;
+  height: 90%;
+  background-color: #0c0c0c;
+  grid-column: 2 / 3;
+  grid-row: 2 / 7;
+  margin-left: 18px;
+  opacity: 0.2;
+}
+
+.grid-line-1-a {
+  margin-left: 0;
+  justify-self: start;
+}
+
+.grid-line-2-a {
+  grid-column: 3 / 4;
+  margin-left: 0;
+  justify-self: end;
+}
+
+.grid-line-3-a {
+  grid-column: 7 / 8;
+  margin-left: 0;
+}
+
+.grid-line-4-a {
+  grid-column: 9 / 10;
+  justify-self: end;
+}
+
+.grid-line-5-a {
+  grid-column: 11 / 12;
+  margin-left: 0;
+  justify-self: end;
+}
+
+.about-contact-button {
+  grid-column: 10 / 12;
+  grid-row: 6 / 7;
+  justify-self: end;
+}
+
+.about-contact-button a {
+  color: #fbfbff;
+  text-decoration: none;
+  background-color: #0c0c0c;
+  border: 1px solid #0c0c0c;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.about-contact-button a:hover {
+  text-decoration: line-through;
+}
+
+.about-github {
+  grid-column: 2 / 4;
+  grid-row: 6 / 7;
+}
+
+.about-dribble {
+  grid-column: 4 / 6;
+  grid-row: 6 / 7;
+}
+
+.about-contact-button-2 {
+    color: #0c0c0c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.about-contact-button-2:hover {
+    text-decoration: line-through;
+}
+
+@media (min-width: 768px) {
+    .about-section-text {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-section-text {   
+        font-size: 2rem;
+    }
+}
