@@ -130,7 +130,7 @@ class EstadoReal extends Component {
             <h2>
               Estado Real is a system for a ficticial real estate, this was a
               system that i develop by my own for an asignature in La Punta
-              University. The main objective was to learn how to create an API
+              University. The aim was to learn how to create an API
               and develop a system that uses CRUD. For this project i worked
               with C# and also the MVC pattern, i used Visual Studio Community.
               I decided to use html, css and C# so by this time i didn't know

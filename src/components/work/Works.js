@@ -140,8 +140,8 @@ class Works extends Component {
             <h2>
               Estado Real is a system for a ficticial real estate, this was a
               system that i develop by my self for an asignature in La Punta
-              University. The main objective was to learn how to create an API
-              and deveop a system that uses CRUD.
+              University. The aim was to learn how to create an API
+              and develop a system that uses CRUD.
             </h2>
           </div>
 

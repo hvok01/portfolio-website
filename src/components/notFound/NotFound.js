@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import NavBar from '../nav/NavBar';
 import { Link } from 'react-router-dom';
-import '../../styles/notFound/notFound.css';
 import { Helmet } from 'react-helmet';
 import { gsap } from "gsap/dist/gsap";
+import '../../styles/notFound/notFound.css';
 
 class NotFound extends Component {
 
@@ -32,10 +32,10 @@ class NotFound extends Component {
                 <title>Error: 404</title>
             </Helmet>
             <NavBar />
-            <div className='grid-container'>
-                <main className='works-section-container'></main>
-                <div className='works-section' ref={this.mainTitle}>
-                    <h1 className='works-section-text'>404: Page not found.</h1>
+            <div className='grid-container-not-found'>
+                <main className='not-found-container'></main>
+                <div className='not-found' ref={this.mainTitle}>
+                    <h1 className='not-found-text'>404: Page not found.</h1>
                 </div>
                 <div className='link-go-back-to-Home' ref={this.backToHome}>
                     <Link to='/'> Go back to home</Link>

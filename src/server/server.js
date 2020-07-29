@@ -24,13 +24,11 @@ if(ENV == 'development'){
 
     app.use(webpackDevMiddleware(compiler,serverConfig));
     app.use(webpackHotMiddleware(compiler));
-    app.use('/favicon.ico', express.static(__dirname + '../favicon.png'));
+    app.use('/favicon.ico', express.static(`${__dirname}/public/favicon.ico`));
 } else {
     console.log("produccion");
+    app.use('/favicon.ico', express.static(`${__dirname}/public/favicon.ico`));
     app.use(express.static(`${__dirname}/public`));
-    /* app.use(helmetMiddeware());
-    app.use(helmetMiddeware.permittedCrossDomainPolicies());
-    app.disable('x-powered-by'); */
 }
 
 const setResponse = (html) => {

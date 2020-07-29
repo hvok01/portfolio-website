@@ -20,7 +20,7 @@ class App extends Component {
             <Route exact path='/contact' component={Contact} />
             <Route exact path='/pintper' component={Pintper} />
             <Route exact path='/estadoReal' component={EstadoReal} />
-            <Route component={NotFound} />
+            <Route exact path='404' component={NotFound} />
         </Switch>
       </Router>
     );

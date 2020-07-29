@@ -7,4 +7,8 @@
 # server public
 src/server/public
 
-#.netlify
+#.vercel
+.vercel
+
+#vercel .json
+vercel.json

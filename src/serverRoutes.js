@@ -38,7 +38,8 @@ const routes = [
     component: EstadoReal 
     },
     {
-    name: 'NotFound',
+    exact: true,
+    path: '/404',
     component: NotFound 
     }
 ];
